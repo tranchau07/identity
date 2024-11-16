@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /identity
+
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/luna"
+    driverClassName: "com.mysql.cj.jdbc.Driver"
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+#jwt:
+#  valid-duration: 50,
+#  refreshable-duration: 120

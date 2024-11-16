@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "jwt.valid-duration",
+      "type": "java.lang.String",
+      "description": "Description for jwt.valid-duration."
+    },
+    {
+      "name": "jwt.refreshable-duration",
+      "type": "java.lang.String",
+      "description": "Description for jwt.refreshable-duration."
+    }
+  ] }
